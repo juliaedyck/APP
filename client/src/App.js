@@ -48,7 +48,7 @@ const App = () =>{
          <Route path="/About" element={<About/>}/>
             {/* <About />
           </Route> */}
-          <Route path="/Form" element={<Form/>}/>
+          {/* <Route path="/Form" element={<Form/>}/> */}
             {/* <MyForm/> */}
             {/* <Form />
           </Route> */}
