@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
-  publish="juliaedyck/APP/client"
-  base = "juliaedyck/APP"
+  base = "APP"
+  publish= "client"
 
   [[redirects]]
   from = "/*"
