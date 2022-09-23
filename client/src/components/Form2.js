@@ -8,7 +8,7 @@ import lips from "../photos/app_lips.png"
 import mic from "../photos/app_mic.png"
 
 
-const Form = () => {
+const Form2 = () => {
   const [favSound, setFavSound] = useState("");
   const [noise, setNoise] = useState("");
   const [calming, setCalming] = useState();
@@ -75,7 +75,10 @@ const Form = () => {
 
   const handleSubmit = (ev) => {
     ev.preventDefault();
-    navigate("/Form2");
+    navigate("/Form3");
+
+
+
 
 //     fetch("/fill-form", {
 //       method: "PATCH",
@@ -94,19 +97,19 @@ const Form = () => {
 //         setCurrentUser(data.data);
 //       });
 
-  //   if (embodied === true && voices === false && calming !== true) {
-  //   navigate.push("/confirmed/62a0a11e5173fa8e3f126f03");
-  //   } else if (embodied === true && voices === true && calming !== true) {
-  //       navigate.push("/confirmed/62a0f53e21d84c85e88f4b73");
-  //   } else if (voices === true && calming === true && embodied === true) {
-  //       navigate.push("/confirmed/62a0f30921d84c85e88f4b70");
-  //   } else if (voices === true && calming === true && embodied !== true) {
-  //       navigate.push("/confirmed/62a253957c8d6e6823eeabb9");
-  //   } else if (voices === false && calming !== true && embodied !== true) {
-  //       navigate.push("/confirmed/62a255437c8d6e6823eeabba");
-  //   } else {
-  //       navigate.push("/confirmed/62a257047c8d6e6823eeabbb");
-  //   }
+    if (embodied === true && voices === false && calming !== true) {
+    navigate.push("/confirmed/62a0a11e5173fa8e3f126f03");
+    } else if (embodied === true && voices === true && calming !== true) {
+        navigate.push("/confirmed/62a0f53e21d84c85e88f4b73");
+    } else if (voices === true && calming === true && embodied === true) {
+        navigate.push("/confirmed/62a0f30921d84c85e88f4b70");
+    } else if (voices === true && calming === true && embodied !== true) {
+        navigate.push("/confirmed/62a253957c8d6e6823eeabb9");
+    } else if (voices === false && calming !== true && embodied !== true) {
+        navigate.push("/confirmed/62a255437c8d6e6823eeabba");
+    } else {
+        navigate.push("/confirmed/62a257047c8d6e6823eeabbb");
+    }
   };
 
   return (
@@ -117,198 +120,14 @@ const Form = () => {
       onSubmit={handleSubmit}
       >
         <Wrapper>
-          <Div>
-            HAVE YOU TRIED ANY OF THE FOLLOWING PRACTICES? (CHECK ALL THAT APPLY)
-          </Div>
-          <OptionsWrapper>
-            <Choice>
-              <Input2 type="checkbox" id="soundscapes" />
-              <label for="soundscapes">
-                <StyledLink
-                  onClick={() =>
-                    newWindow("https://en.wikipedia.org/wiki/Soundscape")
-                  }
-                  target="_blank"
-                >
-                  SOUNDSCAPES
-                </StyledLink>
-              </label>
-            </Choice>
+         
 
-            <Choice>
-              <Input2 type="checkbox" id="nature sounds" />
-              <label for="nature sounds">
-                <StyledLink
-                  onClick={() =>
-                    newWindow("https://www.youtube.com/watch?v=Jll0yqdQclw")
-                  }
-                  target="_blank"
-                >
-                  NATURE SOUNDS
-                </StyledLink>
-              </label>
-            </Choice>
 
-            <Choice>
-              <Input2 type="checkbox" id="isotones" />
-              <label for="isotones">
-                <div onClick={() => playPause("isotones")}>
-        
-                  ISOCHRONIC TONES
-                </div>
-              </label>
-            </Choice>
-
-            <Choice>
-              <Input2 type="checkbox" id="vlf" />
-              <label for="vlf">
-                <div onClick={() => playPause("vlf")}>ASTRAL NOISE</div>
-              </label>
-            </Choice>
-
-            <Choice>
-              <Input2 type="checkbox" id="MUZAK" />
-              <label for="MUZAK">
-                <StyledLink
-                  onClick={() =>
-                    newWindow("https://en.wikipedia.org/wiki/Muzak")
-                  }
-                  target="_blank"
-                >
-                  MUZAK
-                </StyledLink>
-              </label>
-            </Choice>
-
-            <Choice>
-              <Input2 type="checkbox" id="deep listening" />
-              <label for="deep listening">
-                <StyledLink
-                  onClick={() =>
-                    newWindow(
-                      "https://monoskop.org/images/2/2c/Oliveros_Pauline_Deep_Listening_A_Composers_Sound_Practice_2005.pdf"
-                    )
-                  }
-                  target="_blank"
-                >
-              
-                  DEEP LISTENING
-                </StyledLink>
-              </label>
-            </Choice>
-
-            <Choice>
-              <Input2 type="checkbox" id="drones" />
-              {/* <label for=" drones"> drone </label> */}
-
-              <label for="drones">
-                <div onClick={() => playPause("drones")}>DRONES</div>
-              </label>
-            </Choice>
-
-            <Choice>
-              <Input2 type="checkbox" id="hypnosis" />
-              <label for="hypnosis">
-                <StyledLink
-                  onClick={() =>
-                    newWindow(
-                      "https://youngascensionhypnosis.bandcamp.com/track/you-cant-fuck-it-up"
-                    )
-                  }
-                  target="_blank"
-                >
-                  HYPNOSIS
-                </StyledLink>
-              </label>
-            </Choice>
-
-            <Choice>
-              <Input2 type="checkbox" id=" sound baths" />
-              <label for="sound baths">
-                <StyledLink
-                  onClick={() =>
-                    newWindow("https://www.healthline.com/health/sound-bath")
-                  }
-                  target="_blank"
-                >
-                  SOUND BATHS
-                </StyledLink>
-              </label>
-            </Choice>
-
-            <Choice>
-              <Input2 type="checkbox" id="neo gregorian chant" />
-              <label for="neo gregorian chant "> NEO GREGORIAN CHANT </label>
-            </Choice>
-
-            <Choice>
-              <Input2 type="checkbox" id="roleplay " />
-
-              <label for="roleplay">
-                <StyledLink
-                  onClick={() =>
-                    newWindow("https://en.wikipedia.org/wiki/Role-playing")
-                  }
-                  target="_blank"
-                >
-                  ROLEPLAY
-                </StyledLink>
-              </label>
-            </Choice>
-
-            <Choice>
-              <Input2 type="checkbox" id="ASMR" />
-
-              <label for="ASMR">
-                <StyledLink
-                  onClick={() =>
-                    newWindow("https://www.youtube.com/watch?v=bbPg3Dc68cA")
-                  }
-                  target="_blank"
-                >
-                  ASMR
-                </StyledLink>
-              </label>
-            </Choice>
-            <Choice>
-              <Input2 type="checkbox" id="laughter yoga" />
-              <label for="laughter yoga">
-                <StyledLink
-                  onClick={() => newWindow("https://laughteryoga.org/")}
-                  target="_blank"
-                >
-                  LAUGHTER YOGA
-                </StyledLink>
-              </label>
-            </Choice>
-
-            <Choice>
-              <Input2 type="checkbox" id="binaural beats" />
-              <label for="binaural beats">BINAURAL BEATS </label>
-            </Choice>
-
-            <Choice>
-              <Input2 type="checkbox" id="guided meditation" />
-              <label for="guided meditation">
-                <StyledLink
-                  onClick={() =>
-                    newWindow(
-                      "https://www.youtube.com/watch?v=eg53RoTeOV4&t=6s"
-                    )
-                  }
-                  target="_blank"
-                >
-                  GUIDED MEDITATION
-                </StyledLink>
-              </label>
-            </Choice>
-          </OptionsWrapper>
-
-        <Button type="submit">NEXT</Button>
-
-          {/* <ExperienceWrapper>
-            <Experience>
+          <ExperienceWrapper>
+              <Div>
               What kind of experience are you seeking?
+              </Div>
+            <Experience>
               <Input2
                 type="radio"
                 name="experience"
@@ -328,9 +147,11 @@ const Form = () => {
             </Experience>
 
             <div>
-              <Experience>
-                Are you seeking an embodied/visceral or cognitage/emotional
+            <Div>
+                Are you seeking an embodied/visceral or cognitage/emotional 
                 response?
+                </Div>
+              <Experience>
                 <Input2
                   type="radio"
                   name="response"
@@ -350,9 +171,11 @@ const Form = () => {
               </Experience>
             </div>
             <div>
-              <Experience>
+              <Div>
                 Would you like one or many voices to directly address you as a
                 listener?
+                </Div>
+              <Experience>
                 <Input2
                   type="radio"
                   name="voice"
@@ -370,7 +193,7 @@ const Form = () => {
               </Experience>
             </div>
           </ExperienceWrapper>
-          <NoiseWrapper>
+          {/* <NoiseWrapper>
             What is your favourite color of noise?
             <Input2
               type="radio"
@@ -419,12 +242,13 @@ const Form = () => {
           {/* </Experience> */}
         </Wrapper>
 
-        {/* <Button type="submit">Confirm</Button> */}
+
+        <Button type="submit">NEXT</Button>
+
       </TheForm>
     </Container>
   );
 };
-
 
 const Img = styled.div`
   background-image: url(/images/gold.jpg);
@@ -449,6 +273,7 @@ const ImgWrap = styled.div`
 height: 50px;
 `;
 
+
 const Div = styled.div`
 margin: 20px;
 padding-top: 20px;
@@ -460,17 +285,10 @@ justify-content: center;
 
 const Choice = styled.div`
 padding: 20px;
-margin-top: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
   text-decoration: none;
-  background-color: var(--color-pink);
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 50px;
-
-
-
   color: var(--color-blue);
   &:hover {
     color: var(--color-green);
@@ -488,14 +306,22 @@ const StyledLink = styled.a`
 `;
 
 const Experience = styled.div`
-  padding-top: 60px;
-  padding-bottom: 60px;
+  width: 500px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-left: 90px;
+  padding: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: var(--color-pink);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  
 `;
 
 const OptionsWrapper = styled.div`
-  /* box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
 margin: 50px;
   display: grid;
   justify-content: center;
@@ -507,6 +333,7 @@ margin: 50px;
   row-gap: 1.25%;
   padding: 20px 50px;
   width: auto;
+  /* background-color: var(--color-pink); */
   border-radius: 50px;
   margin-top: 20px;
 `;
@@ -523,6 +350,11 @@ const NoiseWrapper = styled.div`
 `;
 
 const ExperienceWrapper = styled.div`
+width:100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* align-items: center; */
 `;
 
 const Input = styled.input`
@@ -540,11 +372,12 @@ const Input = styled.input`
 const Input2 = styled(Input)`
   width: 175px;
   margin: 5px;
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 50px;
   color: 1px solid var(--color-pink);
   color: #f7c2ce;
   border: 10px solid #f7c2ce;
+  
 `;
 
 const Input3 = styled(Input)`
@@ -558,12 +391,17 @@ const Wrapper = styled.div`
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 `;
 
 const Container = styled.div`
   padding: 40px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: var(--font-body);
   color: var(--color-blue);
 `;
@@ -601,4 +439,4 @@ const Button = styled.button`
 `;
 
 
-export default Form;
+export default Form2;

@@ -30,8 +30,11 @@ import NavBar from "./components/NavBar";
 import styled from "styled-components";
 import Header from "./components/Header";
 import Form from "./components/Form";
+import Form2 from "./components/Form2";
+import Form3 from "./components/Form3";
 import About from "./components/About";
 import GlobalStyles from "./components/GlobalStyles";
+
 
 
 const App = () =>{
@@ -48,7 +51,11 @@ const App = () =>{
          <Route path="/About" element={<About/>}/>
             {/* <About />
           </Route> */}
-          {/* <Route path="/Form" element={<Form/>}/> */}
+          <Route path="/Form" element={<Form/>}/>
+          <Route path="/Form2" element={<Form2/>}/>
+          <Route path="/Form3" element={<Form3/>}/>
+
+
             {/* <MyForm/> */}
             {/* <Form />
           </Route> */}

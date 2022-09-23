@@ -8,7 +8,7 @@ import lips from "../photos/app_lips.png"
 import mic from "../photos/app_mic.png"
 
 
-const Form = () => {
+const Form3 = () => {
   const [favSound, setFavSound] = useState("");
   const [noise, setNoise] = useState("");
   const [calming, setCalming] = useState();
@@ -601,4 +601,4 @@ const Button = styled.button`
 `;
 
 
-export default Form;
+export default Form3;
