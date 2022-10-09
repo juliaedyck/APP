@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import px2vw from "../utils/px2vw";
 
 export default createGlobalStyle`
 
@@ -11,6 +12,13 @@ export default createGlobalStyle`
 	--color-green: #669966;
     --color-blue: #336699;
     --background-color: #f7c2ce;
+	@media (min-width: 768px) {
+        font-size: ${px2vw(18)};
+      }
+
+      @media (min-width: 1024px) {
+        font-size: ${px2vw(16)};
+      }
 }
 
 //CSS RESET

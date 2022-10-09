@@ -3,7 +3,7 @@ import styled, { keyframes } from "styled-components";
 
 import { NavLink } from "react-router-dom";
 import NavBar from "./NavBar";
-
+import HamburgerNav from "./HamburgerNav";
 
 const Header = () => {
   return (
@@ -14,18 +14,17 @@ const Header = () => {
           <StyledNavLink to="/">AUDIO PLACEBO PLAZA</StyledNavLink>
         </Wrapper>
         <Nav>
-          <NavBar />
+          {/* <NavBar /> */}
+          {/* <HamburgerNav /> */}
         </Nav>
       </Container>
       <ScrollWrapper>
       <ScrollDiv>
         <InfiniteScroll>
-          CAN PLACEBOS HELP? DOES SOUND HAVE THE POWER TO PROCESS COMPLEX
-          EMOTIONS? CAN MUSIC GIVE YOU WHAT YOU NEED? IS THIS EVEN MUSIC?
+          CAN PLACEBOS HELP? DOES SOUND HAVE THE POWER TO PROCESS COMPLEX EMOTIONS? CAN MUSIC GIVE YOU WHAT YOU NEED? IS THIS EVEN MUSIC?
         </InfiniteScroll>
         <InfiniteScroll2>
-          CAN PLACEBOS HELP? DOES SOUND HAVE THE POWER TO PROCESS COMPLEX
-          EMOTIONS? CAN MUSIC GIVE YOU WHAT YOU NEED? IS THIS EVEN MUSIC?
+          CAN PLACEBOS HELP? DOES SOUND HAVE THE POWER TO PROCESS COMPLEX EMOTIONS? CAN MUSIC GIVE YOU WHAT YOU NEED? IS THIS EVEN MUSIC?
         </InfiniteScroll2>
       </ScrollDiv>
     </ScrollWrapper>
@@ -39,6 +38,7 @@ const Div = styled.span`
   top: 0;
   width: 100%;
   background-color: #f7c2ce;
+  height: 100px;
 
 `;
 const Container = styled.div`
@@ -68,16 +68,30 @@ margin-left: 100px;
   &:hover {
     color: #669966;
   }
+    @media (max-width: 768px) {
+  font-size: 25px;
+  }
+  
 `;
 
 const ScrollDiv = styled.div`
   width: 100%;
   background-color: #f7c2ce;
-  height: 50px;
+  /* height: 50px; */
+  height: fit-content;
   /* margin-top: 10px; */
   z-index: 2;
   position: fixed;
   /* padding-top: 10px; */
+
+  @media (max-width: 768px) {
+  width: 200%;
+  font-size: 15px; 
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  }
 `;
 
 const ScrollWrapper = styled.div`
@@ -90,6 +104,7 @@ const ScrollWrapper = styled.div`
   font-family: var(--font-body);
   color: var(--color-blue);
   font-size: 20px;
+
 `;
 
 const scroll = keyframes`
@@ -114,6 +129,17 @@ const scroll2 = keyframes`
 
 `;
 
+const scroll3 = keyframes`
+
+    0% {transform: translateX(800px);}
+    25%{transform: translateX(400px)}
+    50%{transform: translateX(0px)}
+    75%{transform: translateX(-400px)}
+    100% {transform: translateX(-800px);}
+
+
+`;
+
 const InfiniteScroll = styled.div`
   position: absolute;
   background-color: #f7c2ce;
@@ -122,6 +148,10 @@ const InfiniteScroll = styled.div`
   width: 150%;
 
   animation: ${scroll} 40s linear infinite;
+  @media (max-width: 768px) {
+    animation: ${scroll3} 45s linear infinite;
+  }
+
 `;
 
 const InfiniteScroll2 = styled.div`
@@ -132,6 +162,12 @@ const InfiniteScroll2 = styled.div`
   margin-top: 10px;
 
   animation: ${scroll2} 40s linear infinite;
+  @media (max-width: 768px) {
+    display: none;
+    animation: ${scroll} 50s linear infinite;
+  }
+
+
 `;
 
 export default Header;
