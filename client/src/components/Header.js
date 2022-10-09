@@ -79,7 +79,7 @@ margin-left: 100px;
   }
     @media (max-width: 768px) {
   width: 100%;
-  font-size: 30px;
+  font-size: 25px;
   margin: 0;
   }
   
@@ -96,7 +96,7 @@ const ScrollDiv = styled.div`
   /* padding-top: 10px; */
 
   @media (max-width: 768px) {
-  width: 220%;
+  width: 230%;
   font-size: 15px; 
   height: 40px;
   display: flex;
