@@ -43,6 +43,7 @@ const Div = styled.span`
 `;
 const Container = styled.div`
   background-color: #f7c2ce;
+
 `;
 const Nav = styled.div`
   display: flex;
@@ -51,8 +52,16 @@ const Nav = styled.div`
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #f7c2ce;
   padding-right: 80px;
+
+  @media (max-width: 768px) {
+  width: 100%;
+  padding: 0;
+  margin-left: 40px;
+
+  }
 `;
 
 const StyledNavLink = styled(NavLink)`
@@ -69,7 +78,9 @@ margin-left: 100px;
     color: #669966;
   }
     @media (max-width: 768px) {
-  font-size: 25px;
+  width: 100%;
+  font-size: 30px;
+  margin: 0;
   }
   
 `;
@@ -85,7 +96,7 @@ const ScrollDiv = styled.div`
   /* padding-top: 10px; */
 
   @media (max-width: 768px) {
-  width: 200%;
+  width: 220%;
   font-size: 15px; 
   height: 40px;
   display: flex;
