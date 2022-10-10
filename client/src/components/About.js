@@ -6,17 +6,14 @@ import photo from "../photos/064A4457.jpg";
 const About = () => {
   return (
     <Wrapper>
-      <TextDiv>Can placebos help?
+      <TextDiv>
 
-      <p>Does sound have the power to process complex emotions?
-
-Can music give you what you need?
-
-Is this even music?</p>
-
-<p>Erin Gee, Julia E Dyck, and Viv Li offer everyday people customized positive messages, audio creations, healing frequencies, binaural beats, and ASMR, responding to the needs of our </p><p>community through a practice of radical sonic care.</p>
-
-<p>We promise our fullest intention</p></TextDiv>
+<p>Erin Gee, Julia E Dyck, and Viv Li offer everyday people customized positive messages, audio creations, healing frequencies, binaural beats, and ASMR, responding to the needs of our community through a practice of radical sonic care.</p>
+<Div></Div>
+<Div>
+<p>We promise our fullest intention</p>
+</Div>
+</TextDiv>
       <ImgWrap>
         <Img src={photo} alt="team photo" />
       </ImgWrap>
@@ -28,6 +25,7 @@ Is this even music?</p>
         co-performativity in psychosomatic sound art. Through performance and
         interactivity, APP engages with community members to discuss these
         topics.
+        </Div>
         <Div>
           Julia E. Dyck is an artist and radio producer originally from Treaty
           One Territory/Winnipeg who works between Brussels and
@@ -36,11 +34,13 @@ Is this even music?</p>
           technology and the environment through performance, composition,
           installation and transmission.
         </Div>
+        <Div>
         Erin Gee is an artist/composer based in Montreal/Tiohtià:ke who
         practices critical approaches to affect, vocality, and unconscious
         thought. She is a DIY expert in affective biofeedback, incorporating
         these technologies into vocal composition, networked performance, ASMR,
         VR, AI and robotics.
+        </Div>
         <Div>
           Vivian Li is a China-born, Montreal/Tiohtià:ke-based multidisciplinary
           composer and sound artist whose work in hardware synths, voice and
@@ -48,6 +48,7 @@ Is this even music?</p>
           surroundings, combining elements of Li’s eastern roots with western
           influences.
         </Div>
+        <Div>
         APP considers "placebo" as a complex, open-ended, and optimistic
         conceptual framework for performances that embrace irony, play, and
         co-performativity in psychosomatic sound art. There is limited
@@ -72,7 +73,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-padding: 10px;
+padding: 50px;
+
 `
 const Wrapper = styled.div`
   margin-top: 100px;
@@ -86,8 +88,10 @@ const Wrapper = styled.div`
   color: var(--color-blue);
 `;
 const Div = styled.div`
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   display: flex;
   justify-content: center;
   flex-direction: column;

@@ -33,6 +33,7 @@ import Form from "./components/Form";
 import Form2 from "./components/Form2";
 import Form3 from "./components/Form3";
 import About from "./components/About";
+import Montreal from "./components/Montreal";
 import GlobalStyles from "./components/GlobalStyles";
 
 
@@ -54,6 +55,8 @@ const App = () =>{
           <Route path="/Form" element={<Form/>}/>
           <Route path="/Form2" element={<Form2/>}/>
           <Route path="/Form3" element={<Form3/>}/>
+          <Route path="/Montreal" element={<Montreal/>}/>
+
 
 
             {/* <MyForm/> */}
