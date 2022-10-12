@@ -15,6 +15,8 @@ const HamburgerNav = ({handleNavToggle}) => {
         {/* <StyledNavLink onClick={handleNavToggle} to="/Form">GET AN AUDIO PLACEBO</StyledNavLink> */}
         <StyledNavLink onClick={handleNavToggle} to="/About">ABOUT</StyledNavLink>
         <StyledNavLink onClick={handleNavToggle} to="/Montreal">MONTREAL EDITION</StyledNavLink>
+        <StyledNavLink onClick={handleNavToggle} to="/Karachi">KARACHI EDITION</StyledNavLink>
+
         <CloseToggle onClick= {handleNavToggle} ><FaTimes/></CloseToggle> 
 
       {/* </Menu> */}

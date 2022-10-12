@@ -1,39 +1,35 @@
 import styled from "styled-components";
 import px2vw from "../utils/px2vw";
 
-import photo1 from "../photos/Placebo_photo_par_Alexis_Bellavance_006.jpg";
-import photo2 from "../photos/Placebo_photo_par_Alexis_Bellavance_007.jpg";
-import photo3 from "../photos/Placebo_photo_par_Alexis_Bellavance_005.jpg"
-import photo4 from "../photos/Placebo_photo_par_Alexis_Bellavance_004.jpg"
+import photo from "../photos/WORKING MENU_page-0001.jpg";
 
-const Montreal = () => {
+const Karachi = () => {
   return (
     <Wrapper>
-        <Head>MONTREAL EDITION</Head>
+        <Head>KARACHI BIENNALE</Head>
         <ImgWrap>
-        <Img src={photo3} alt="Viv playing synth" />
+        {/* <Img src={photo} alt="Placebo Menu" /> */}
       </ImgWrap>
 
       <TextDiv>
-<p>In summer of 2021, the Canadian art collective known as Audio Placebo Plaza transformed a former perfume shop vitrine into a DIY audio placebo and online radio centre. For one week only they offered everyday people customized positive messages, audio creations, healing frequencies, binaural beats, and ASMR, responding to the needs of the community through a practice of radical sonic care.</p>
+<p> Founded upon methods of intersectional feminism, self-care, and audio production excellence, Audio Placebo Plaza invites the public to visit our centre, or take appointments to discuss how an audio placebo could help improve their lives. Laying the mechanism of the placebo effect bare, patients are invited to engage with healing performance.
+</p>
 
 </TextDiv>
 <ImgDiv>
  <ImgWrap>
- <Img2 src={photo2} alt="Erin and Julia in production" />
+ <Img2 src={photo} alt="Placebo Menu" />
  </ImgWrap>
  <ImgWrap2>
 
- <Img2 src={photo1} alt="Montreal Menu" />
- <Img2 src={photo4} alt="Seat and microphone" />
+
  </ImgWrap2>
 </ImgDiv>
 
       <TextDiv>
 
    
-<p>Presented as part of “Bodies in Resonance / Corps Résonants”, a series of radio interventions curated by /Undefine (Martín Rodríguez and Emmanuel Madan)
-     This series invited three successive artist groups to make performances, installations, and engage with the public through the storefront at 6835 Rue Saint-Hubert, Montreal from June 4 to 22 in Partnership with Suoni per il Popolo and CKUT.</p> 
+<p>Whether to increase productivity, self-esteem, mental health, or social interactivity, we work with our patient's aural preferences, sensitivities, and curiosities. Intake sessions determine familiarity and comfort with psychosomatic audio techniques. After the consultation, team members meet to discuss each participant’s case, and fulfill “prescriptions” collaboratively.</p> 
        
       </TextDiv>
     </Wrapper>
@@ -142,4 +138,4 @@ const Img2 = styled.img`
 
   }
 `;
-export default Montreal;
+export default Karachi;

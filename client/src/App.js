@@ -37,24 +37,17 @@ import Montreal from "./components/Montreal";
 import GlobalStyles from "./components/GlobalStyles";
 import Toggle from "./components/Toggle";
 import HamburgerNav from "./components/HamburgerNav";
+import Karachi from "./components/Karachi";
 
 const App = () => {
-  // const [navToggled, setNavToggled] = useState(false);
-
-  // const handleNavToggle = () => {
-  //   setNavToggled(!navToggled);
-  // };
 
   return (
     <>
-      {/* <Toggle handleNavToggle={handleNavToggle} /> */}
       <Router>
         <GlobalStyles />
         <Wrapper>
-          {/* <HamburgerNav /> */}
           <Header />
-          {/* <NavBar/> */}
-          {/* <HamburgerNav />  */}
+  
           <Routes>
             <Route path="/" element={<HomePage />} />
 
@@ -64,6 +57,8 @@ const App = () => {
             <Route path="/Form2" element={<Form2 />} />
             <Route path="/Form3" element={<Form3 />} />
             <Route path="/Montreal" element={<Montreal />} />
+            <Route path="/Karachi" element={<Karachi />} />
+
           </Routes>
         </Wrapper>
       </Router>

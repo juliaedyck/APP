@@ -106,5 +106,12 @@ const ImgWrap = styled.div`
 const Img = styled.img`
   width: 600px;
   border-radius: 20px;
+
+  
+  @media (max-width: 768px) {
+    max-width: 100%;
+    max-height: 80%;
+
+  }
 `;
 export default About;

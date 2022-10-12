@@ -33,31 +33,28 @@ const Div = styled.div`
   }
 `;
 const Wrapper = styled.div`
-  /* width: 100%; */
-  width: 1440;
+  width: 100%;
+  /* width: 1440; */
   margin-top: 35px;
-  /* background-image: url(/images/gold.jpg); */
-
   display: flex;
   flex-direction: row;
-  /* justify-content: flex-end; */
   font-family: var(--font-body);
   color: var(--color-blue);
   font-size: 20px;
 
   @media (min-width: 768px) {
-    /* display: none; */
     width: ${px2vw(320, 768)};
     min-height: ${px2vw(200, 768)};
     height: 100%;
   }
 
   @media (min-width: 1024px) {
-    width: ${px2vw(1500)};
+    /* width: ${px2vw(1500)};
     min-height: ${px2vw(300)};
-    height: 100%;
+    height: 100%; */
   }
 `;
+
 const Img = styled.div`
   background-image: url(/images/gold.jpg);
   z-index: -1;

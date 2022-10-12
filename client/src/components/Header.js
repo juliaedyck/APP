@@ -51,7 +51,7 @@ const Header = () => {
   );
 };
 const Desktop = styled.div`
-z-index: 99;
+z-index: 100;
 font-size: 20px;
     top: 3%;
     right: 4%;
@@ -90,18 +90,20 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #f7c2ce;
-  padding-right: 80px;
+  /* padding-right: 80px; */
 
   @media (max-width: 768px) {
   width: 100%;
-  padding: 0;
-  margin-left: 40px;
+padding-left: 18%;
+padding-right: 18%;
+  /* padding: 0;
+  margin-left: 40px; */
 
   }
 `;
 
 const StyledNavLink = styled(NavLink)`
-margin-left: 100px;
+/* margin-left: 100px; */
   text-decoration: none;
   padding-top: 10px;
   z-index: 2;
