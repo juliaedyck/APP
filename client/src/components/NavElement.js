@@ -25,7 +25,11 @@ export const MenuLink = styled(Link)`
 export const Hamburger = styled(FaBars)`
 z-index: 90;
   display: none;
+  top: 0;
+  /* font-size: 2.3rem; */
   color: #ffffff;
+  
+
   @media screen and (max-width: 768px) {
     display: block;
     font-size: 1.9rem;

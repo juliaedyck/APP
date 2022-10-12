@@ -8,7 +8,7 @@ import HamburgerNav from "./HamburgerNav";
 
 const Header = () => {
 
-  const [navToggled, setNavToggled] = useState(true);
+  const [navToggled, setNavToggled] = useState(false);
 
   const handleNavToggle = () => {
     if (navToggled === true)
@@ -30,7 +30,9 @@ const Header = () => {
    { navToggled ? 
 
           <HamburgerNav handleNavToggle={handleNavToggle}/>
-          : <Hamburger onClick = {handleNavToggle}/> }
+          : <><Hamburger onClick = {handleNavToggle}/>
+          <Desktop onClick = {handleNavToggle}>MENU</Desktop>
+          </> }
 
         </Nav>
       </Container>
@@ -48,13 +50,31 @@ const Header = () => {
     </>
   );
 };
+const Desktop = styled.div`
+z-index: 99;
+font-size: 20px;
+    top: 3%;
+    right: 4%;
+    padding-top: 3%;
+    position: absolute;
+    cursor: pointer;
+  font-family: var(--font-body);
+  color: var(--color-blue);
+
+
+  @media screen and (max-width: 768px) {
+    display: none;
+
+  }
+`
+
 
 const Div = styled.span`
   position: fixed;
   top: 0;
   width: 100%;
   background-color: #f7c2ce;
-  height: 100px;
+  height: 105px;
 
 `;
 const Container = styled.div`

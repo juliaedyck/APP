@@ -23,23 +23,28 @@ const HamburgerNav = ({handleNavToggle}) => {
 };
 
 const Nav = styled.div`
-  z-index: 20;
+  z-index: 100;
   position: fixed;
   top: 0;
   right: 0;
   height: 100vh;
   width: 100%;
 
-  @media screen and (min-width: 790px) {
-    width: 20%;
-  }
   background-color: rgb(97, 76, 77, 0.9);
-  z-index: 99;
+  z-index: 100;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-`;
+
+  @media screen and (min-width: 790px) {
+    width: 20%;
+  /* background-color: rgb(97, 76, 77); */
+  background-color: #f7c2ce;
+
+
+  }
+  `;
 
 const StyledNavLink = styled(NavLink)`
   color: #669966;
@@ -59,9 +64,12 @@ const StyledNavLink = styled(NavLink)`
 
 const CloseToggle = styled.button`
     position: fixed;
-    top: 5%;
+    top: 3%;
     right: 4%;
-    background: #222;
+    /* background: #222; */
+  background: #f7c2ce;
+  border: none;
+
     color: #fff;
     padding: .75rem;
     display: flex;
