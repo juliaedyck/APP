@@ -1,11 +1,22 @@
 
 import styled, { keyframes } from "styled-components";
-
+import { useState } from 'react';
+import { Hamburger } from "./NavElement";
 import { NavLink } from "react-router-dom";
 import NavBar from "./NavBar";
 import HamburgerNav from "./HamburgerNav";
 
 const Header = () => {
+
+  const [navToggled, setNavToggled] = useState(true);
+
+  const handleNavToggle = () => {
+    if (navToggled === true)
+    setNavToggled(false);
+
+    else setNavToggled(true)
+  };
+
   return (
     <>
     <Div>
@@ -15,7 +26,12 @@ const Header = () => {
         </Wrapper>
         <Nav>
           {/* <NavBar /> */}
-          {/* <HamburgerNav /> */}
+
+   { navToggled ? 
+
+          <HamburgerNav handleNavToggle={handleNavToggle}/>
+          : <Hamburger onClick = {handleNavToggle}/> }
+
         </Nav>
       </Container>
       <ScrollWrapper>

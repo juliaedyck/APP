@@ -1,37 +1,46 @@
-import { PrimaryNav, MenuLink, Menu, Hamburger } from './NavElement'
+import { MenuLink, Menu, Hamburger } from "./NavElement";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import { useState } from 'react';
+
+import { FaTimes } from 'react-icons/fa';
+
+const HamburgerNav = ({handleNavToggle}) => {
 
 
-const HamburgerNav = () => {
   return (
+
     <Nav>
-      {/* <PrimaryNav> */}
-        <Hamburger />
-        <Menu>
-          <MenuLink to="/home" activeStyle>
-            Home
-          </MenuLink>
-          <MenuLink to="/about" activeStyle>
-            About
-          </MenuLink>
-          <MenuLink to="/products" activeStyle>
-            Products
-          </MenuLink>
-          <MenuLink to="/blog" activeStyle>
-            Blog
-          </MenuLink>
-          <StyledNavLink to="/Form">GET AN AUDIO PLACEBO</StyledNavLink>
-      <StyledNavLink to="/About">ABOUT</StyledNavLink>
-        </Menu>
-      {/* </PrimaryNav> */}
+      {/* <Menu> */}
+        {/* <StyledNavLink onClick={handleNavToggle} to="/Form">GET AN AUDIO PLACEBO</StyledNavLink> */}
+        <StyledNavLink onClick={handleNavToggle} to="/About">ABOUT</StyledNavLink>
+        <StyledNavLink onClick={handleNavToggle} to="/Montreal">MONTREAL EDITION</StyledNavLink>
+        <CloseToggle onClick= {handleNavToggle} ><FaTimes/></CloseToggle> 
+
+      {/* </Menu> */}
     </Nav>
-  )
-}
+  );
+};
 
 const Nav = styled.div`
-z-index: 20;
-`
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+
+  @media screen and (min-width: 790px) {
+    width: 20%;
+  }
+  background-color: rgb(97, 76, 77, 0.9);
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
 const StyledNavLink = styled(NavLink)`
   color: #669966;
   margin-right: 10px;
@@ -47,4 +56,17 @@ const StyledNavLink = styled(NavLink)`
     color: #336699;
   }
 `;
-export default HamburgerNav
+
+const CloseToggle = styled.button`
+    position: fixed;
+    top: 5%;
+    right: 4%;
+    background: #222;
+    color: #fff;
+    padding: .75rem;
+    display: flex;
+    place-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+`;
+export default HamburgerNav;
