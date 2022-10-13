@@ -20,10 +20,6 @@ const Karachi = () => {
  <ImgWrap>
  <Img2 src={photo} alt="Placebo Menu" />
  </ImgWrap>
- <ImgWrap2>
-
-
- </ImgWrap2>
 </ImgDiv>
 
       <TextDiv>

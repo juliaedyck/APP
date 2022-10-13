@@ -26,7 +26,7 @@ const Div = styled.div`
   margin-top: 35px;
   z-index: 2;
   position: fixed;
-  padding-top: 10px;
+  padding-top: 12px;
 
   @media (max-width: 768px) {
     display: none;

@@ -84,6 +84,7 @@ const Container = styled.div`
 const Nav = styled.div`
   display: flex;
   align-items: flex-end;
+  top: 2%;
 `;
 const Wrapper = styled.div`
   display: flex;

@@ -38,6 +38,8 @@ import GlobalStyles from "./components/GlobalStyles";
 import Toggle from "./components/Toggle";
 import HamburgerNav from "./components/HamburgerNav";
 import Karachi from "./components/Karachi";
+import Book from "./components/Book";
+import Listen from "./components/Listen";
 
 const App = () => {
 
@@ -50,6 +52,8 @@ const App = () => {
   
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/Book" element={<Book />} />
+            <Route path="/Listen" element={<Listen />} />
 
             <Route path="/About" element={<About />} />
 

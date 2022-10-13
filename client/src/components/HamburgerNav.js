@@ -14,6 +14,10 @@ const HamburgerNav = ({handleNavToggle}) => {
       {/* <Menu> */}
         {/* <StyledNavLink onClick={handleNavToggle} to="/Form">GET AN AUDIO PLACEBO</StyledNavLink> */}
         <StyledNavLink onClick={handleNavToggle} to="/About">ABOUT</StyledNavLink>
+        <StyledNavLink onClick={handleNavToggle} to="/Listen">LISTEN</StyledNavLink>
+
+        <StyledNavLink onClick={handleNavToggle} to="/Book">BOOK AN APPOINTMENT</StyledNavLink>
+        
         <StyledNavLink onClick={handleNavToggle} to="/Montreal">MONTREAL EDITION</StyledNavLink>
         <StyledNavLink onClick={handleNavToggle} to="/Karachi">KARACHI EDITION</StyledNavLink>
 
@@ -25,7 +29,7 @@ const HamburgerNav = ({handleNavToggle}) => {
 };
 
 const Nav = styled.div`
-  z-index: 100;
+  z-index: 200;
   position: fixed;
   top: 0;
   right: 0;
