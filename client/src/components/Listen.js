@@ -1,6 +1,8 @@
 import ResponsiveEmbed from "react-responsive-embed";
 import styled from "styled-components";
 import px2vw from "../utils/px2vw";
+import Album from "./Album";
+import photo from "../photos/vitrine1.jpg"
 
 const Listen = () => {
 
@@ -10,8 +12,11 @@ const Listen = () => {
       {/* <Img /> */}
       <Wrapper>
         <Div>
-
-                <ResponsiveEmbed style="border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=3130250914/size=large/bgcol=ffffff/linkcol=f171a2/transparent=true/" ratio='3:6' />
+<Album/>
+                {/* <ResponsiveEmbed style="position: relative; z-index: 0; border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=3130250914/size=large/bgcol=ffffff/linkcol=f171a2/transparent=true/?wmode=transparent" frameborder="0" wmode="Opaque" ratio='3:6' /> */}
+                {/* <ResponsiveEmbed src="https://audioplaceboplaza.bandcamp.com/album/audio-placebo-plaza-tiotia-ke-montreal?wmode=transparent" frameborder="0" wmode="Opaque" ratio='3:6' /> */}
+                {/* <iframe src={source} height={height} width={width}/>  */}
+                {/* <iframe ratio='3:6' src="https://bandcamp.com/EmbeddedPlayer/album=3130250914/size=large/bgcol=ffffff/linkcol=f171a2/transparent=true/?wmode=transparent" frameborder="0" wmode="Opaque" /> */}
                 </Div>
                 </Wrapper>
         </>
@@ -22,13 +27,17 @@ const Listen = () => {
 
 const Wrapper = styled.div`
 width: 100%;
+
 display: flex;
 justify-content: center;
+/* position: relative; 
+z-index: -1;  */
 `
 const Div = styled.div`
 margin-top: 150px;
 max-height: 200%;
-z-index: 0;
+position: absolute;
+z-index: -1;
 width: 20%;
 
 @media (max-width: 768px) {
@@ -37,12 +46,16 @@ width: 20%;
 min-height: ${px2vw(200, 768)};  */
 width: 80%;
 max-height: 60%;
-position: absolute;
-margin-top: 30%;
+/* position: absolute; */
+/* position: relative;
+z-index: 0; */
 /* height: 100%;  */
  } 
 
 `
+
+
+
 
 // const Img = styled.div`
 //   background-image: url(/images/gold.jpg);

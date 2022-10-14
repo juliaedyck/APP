@@ -29,25 +29,26 @@ const HamburgerNav = ({handleNavToggle}) => {
 };
 
 const Nav = styled.div`
-  z-index: 200;
-  position: fixed;
+
   top: 0;
   right: 0;
   height: 100vh;
   width: 100%;
-
   background-color: rgb(97, 76, 77, 0.9);
-  z-index: 100;
+  /* z-index: 100; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  z-index: 999999;
 
   @media screen and (min-width: 790px) {
     width: 20%;
   /* background-color: rgb(97, 76, 77); */
   background-color: #f7c2ce;
-
+  position: absolute;
+  z-index: 999999;
 
   }
   `;

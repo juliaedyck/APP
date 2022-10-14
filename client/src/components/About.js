@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import photo from "../photos/064A4457.jpg";
+import photo from "../photos/bio pic.jpg";
 
 
 const About = () => {
