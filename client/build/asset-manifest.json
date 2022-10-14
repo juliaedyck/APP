@@ -1,25 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.2bacef6f.js",
+    "main.js": "/static/js/main.0eb22db0.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/064A4457.jpg": "/static/media/064A4457.c7b5bf92d17ed32c0bce.jpg",
-    "static/media/Placebo_photo_par_Alexis_Bellavance_004.jpg": "/static/media/Placebo_photo_par_Alexis_Bellavance_004.ec22a0aa3a01f0a60580.jpg",
-    "static/media/Placebo_photo_par_Alexis_Bellavance_007.jpg": "/static/media/Placebo_photo_par_Alexis_Bellavance_007.cc92542c5e410d875349.jpg",
-    "static/media/Placebo_photo_par_Alexis_Bellavance_006.jpg": "/static/media/Placebo_photo_par_Alexis_Bellavance_006.5b920c56ec0af2b3060c.jpg",
-    "static/media/Placebo_photo_par_Alexis_Bellavance_005.jpg": "/static/media/Placebo_photo_par_Alexis_Bellavance_005.18574db775d123cc5e1a.jpg",
     "static/media/app_ear.png": "/static/media/app_ear.c4ad1276355fcc68fe50.png",
     "static/media/app_lips.png": "/static/media/app_lips.023293ae6c419c50e9b3.png",
     "static/media/app_keyboard.png": "/static/media/app_keyboard.d8407b33720298460dc2.png",
+    "static/media/vitrine2.jpg": "/static/media/vitrine2.6d492cef474d266421fb.jpg",
+    "static/media/Placebo_photo_par_Alexis_Bellavance_004.jpg": "/static/media/Placebo_photo_par_Alexis_Bellavance_004.ec9808cbe3979cc4c231.jpg",
+    "static/media/vitrine1.jpg": "/static/media/vitrine1.ea30f775bc93fe9b0a08.jpg",
+    "static/media/Placebo_photo_par_Alexis_Bellavance_007.jpg": "/static/media/Placebo_photo_par_Alexis_Bellavance_007.b77c1199f245522aab69.jpg",
+    "static/media/bio pic.jpg": "/static/media/bio pic.18eac2da9f84af6637ab.jpg",
+    "static/media/Placebo_photo_par_Alexis_Bellavance_006.jpg": "/static/media/Placebo_photo_par_Alexis_Bellavance_006.8ffabbcc9a50e65eb1ee.jpg",
     "static/media/app_mic.png": "/static/media/app_mic.36a6ece15a2f6ab484c5.png",
+    "static/media/Placebo_photo_par_Alexis_Bellavance_005.jpg": "/static/media/Placebo_photo_par_Alexis_Bellavance_005.e3e9c209559cfe4154da.jpg",
     "static/media/WORKING MENU_page-0001.jpg": "/static/media/WORKING MENU_page-0001.e8adbfd27be6016b5402.jpg",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.2bacef6f.js.map": "/static/js/main.2bacef6f.js.map",
+    "main.0eb22db0.js.map": "/static/js/main.0eb22db0.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.2bacef6f.js"
+    "static/js/main.0eb22db0.js"
   ]
 }
