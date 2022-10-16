@@ -77,15 +77,22 @@ padding: 50px;
 
 `
 const Wrapper = styled.div`
+  width: 100%;
   margin-top: 100px;
-  margin-left: 10px;
-  margin-right: 20px;
-  padding: 20px;
+  /* margin-left: 10px;
+  margin-right: 20px; */
+  /* padding: 20px; */
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-family: var(--font-body);
   color: var(--color-blue);
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 const Div = styled.div`
   margin-top: 10px;
@@ -101,6 +108,13 @@ const ImgWrap = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
 `;
 
 const Img = styled.img`

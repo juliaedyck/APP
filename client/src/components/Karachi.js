@@ -52,18 +52,6 @@ font-weight: bold;
 
 
 const TextDiv = styled.div`
-/* display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-padding: 10px;
-margin-top: 10px;
-margin-bottom: 10px;
-
-  @media (max-width: 768px) {
-    width: 100%;
-    margin: 5%;
-  } */
 
   margin-top: 10px;
   margin-bottom: 40px;
@@ -107,7 +95,6 @@ const ImgWrap = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     max-width: 100%;
   }
 `;
