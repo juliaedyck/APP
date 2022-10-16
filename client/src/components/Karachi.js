@@ -2,6 +2,12 @@ import styled from "styled-components";
 import px2vw from "../utils/px2vw";
 
 import photo from "../photos/WORKING MENU_page-0001.jpg";
+import photo2 from "../photos/app_karachi_final_page-0001.jpeg"
+
+const newWindow = (url) => {
+  window.open(url, "newwindow");
+  return false;
+};
 
 const Karachi = () => {
   return (
@@ -12,22 +18,29 @@ const Karachi = () => {
       </ImgWrap>
 
       <TextDiv>
-<p> Founded upon methods of intersectional feminism, self-care, and audio production excellence, Audio Placebo Plaza invites the public to visit our centre, or take appointments to discuss how an audio placebo could help improve their lives. Laying the mechanism of the placebo effect bare, patients are invited to engage with healing performance.
+<p> COMING SOON TO THE
+<StyledLink
+                  onClick={() =>
+                    newWindow(
+                      "https://karachibiennale.org.pk/"
+                    )
+                  }
+                  target="_blank"
+                >
+                  KARACHI BIENNALE!
+                </StyledLink>
 </p>
 
 </TextDiv>
 <ImgDiv>
  <ImgWrap>
+ <Img2 src={photo2} alt="Poster" />
+
  <Img2 src={photo} alt="Placebo Menu" />
+
  </ImgWrap>
 </ImgDiv>
 
-      <TextDiv>
-
-   
-<p>Whether to increase productivity, self-esteem, mental health, or social interactivity, we work with our patient's aural preferences, sensitivities, and curiosities. Intake sessions determine familiarity and comfort with psychosomatic audio techniques. After the consultation, team members meet to discuss each participant’s case, and fulfill “prescriptions” collaboratively.</p> 
-       
-      </TextDiv>
     </Wrapper>
   );
 };
@@ -90,17 +103,16 @@ const ImgWrap = styled.div`
   justify-content: center;
   margin-bottom: 20px;
   /* padding: 20px; */
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100%;
+  }
 `;
 
-const ImgWrap2 = styled.div`
-  display: flex;
-  flex-direction: column;
-align-items: center;
 
-  justify-content: space-between;
-  margin-bottom: 20px;
-  padding: 15px;
-`;
 
 
 const ImgDiv = styled.div`
@@ -109,6 +121,8 @@ flex-direction: row;
 
 @media (max-width: 768px) {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `
 
@@ -134,4 +148,15 @@ const Img2 = styled.img`
 
   }
 `;
+
+const StyledLink = styled.a`
+margin-left: 3px;
+color: var(--color-green);
+&:hover {
+    color: var(--color-blue);
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+  }
+  `;
+
 export default Karachi;

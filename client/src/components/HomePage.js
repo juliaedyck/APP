@@ -23,7 +23,7 @@ const Div = styled.div`
   width: 100%;
   background-color: #f7c2ce;
   height: 50px;
-  margin-top: 35px;
+  margin-top: 38px;
   z-index: 2;
   position: fixed;
   padding-top: 12px;
