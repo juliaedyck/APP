@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <Wrapper>
       <Img />
-      <Div>
+      {/* <Div>
         <InfiniteScroll>
           CAN PLACEBOS HELP? DOES SOUND HAVE THE POWER TO PROCESS COMPLEX
           EMOTIONS? CAN MUSIC GIVE YOU WHAT YOU NEED? IS THIS EVEN MUSIC?
@@ -14,7 +14,7 @@ const HomePage = () => {
           CAN PLACEBOS HELP? DOES SOUND HAVE THE POWER TO PROCESS COMPLEX
           EMOTIONS? CAN MUSIC GIVE YOU WHAT YOU NEED? IS THIS EVEN MUSIC?
         </InfiniteScroll2>
-      </Div>
+      </Div> */}
     </Wrapper>
   );
 };
@@ -23,7 +23,7 @@ const Div = styled.div`
   width: 100%;
   background-color: #f7c2ce;
   height: 50px;
-  margin-top: 38px;
+  margin-top: 5%;
   z-index: 2;
   position: fixed;
   padding-top: 12px;
@@ -64,14 +64,16 @@ const Img = styled.div`
   background-size: contain;
   background-position: center;
   position: absolute;
-  top: 9%;
+  top: 3%;
 
   @media (max-width: 768px) {
-    /* display: none; */
-    /* width: ${px2vw(320, 768)};
-    min-height: ${px2vw(200, 768)}; */
-    /* height: 100%; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
+  
+  @media (max-width: 1500px) {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

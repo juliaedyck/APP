@@ -23,18 +23,18 @@ const Header = () => {
       <Container>
         <Wrapper>
           <StyledNavLink to="/">AUDIO PLACEBO PLAZA</StyledNavLink>
-        </Wrapper>
         <Nav>
           {/* <NavBar /> */}
 
    { navToggled ? 
 
-          <HamburgerNav handleNavToggle={handleNavToggle}/>
+<HamburgerNav handleNavToggle={handleNavToggle}/>
           : <><Hamburger onClick = {handleNavToggle}/>
           <Desktop onClick = {handleNavToggle}>MENU</Desktop>
           </> }
 
         </Nav>
+          </Wrapper>
       </Container>
       <ScrollWrapper>
       <ScrollDiv>
@@ -53,9 +53,9 @@ const Header = () => {
 const Desktop = styled.div`
 z-index: 100;
 font-size: 20px;
-    top: 3%;
+    top: 25px;
     right: 4%;
-    padding-top: 3%;
+    /* padding-top: 3%; */
     position: absolute;
     cursor: pointer;
   font-family: var(--font-body);
@@ -202,6 +202,12 @@ const InfiniteScroll = styled.div`
     animation: ${scroll3} 45s linear infinite;
   }
 
+  @media (min-width: 769px) {
+    /* display: none; */
+    width: 250%;
+    animation: ${scroll3} 50s linear infinite;
+  }
+
 `;
 
 const InfiniteScroll2 = styled.div`
@@ -212,7 +218,17 @@ const InfiniteScroll2 = styled.div`
   margin-top: 10px;
 
   animation: ${scroll2} 40s linear infinite;
+
   @media (max-width: 768px) {
+    display: none;
+    animation: ${scroll} 50s linear infinite;
+  }
+
+  @media (min-width: 769px) {
+    display: none;
+  }
+
+  @media (min-width: 2000px) {
     display: none;
     animation: ${scroll} 50s linear infinite;
   }

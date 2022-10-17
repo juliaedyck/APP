@@ -32,6 +32,7 @@ const Nav = styled.div`
 
   top: 0;
   right: 0;
+  margin-top: 0px;
   height: 100vh;
   width: 100%;
   background-color: rgb(97, 76, 77, 0.9);
