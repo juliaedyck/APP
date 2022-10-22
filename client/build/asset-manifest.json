@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.cc111bdb.js",
+    "main.js": "/static/js/main.499e931f.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/app_karachi_final_page-0001.jpeg": "/static/media/app_karachi_final_page-0001.249bf775e306708e9bd7.jpeg",
     "static/media/app_ear.png": "/static/media/app_ear.c4ad1276355fcc68fe50.png",
@@ -18,11 +18,11 @@
     "static/media/WORKING MENU_page-0001.jpg": "/static/media/WORKING MENU_page-0001.e8adbfd27be6016b5402.jpg",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.cc111bdb.js.map": "/static/js/main.cc111bdb.js.map",
+    "main.499e931f.js.map": "/static/js/main.499e931f.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.cc111bdb.js"
+    "static/js/main.499e931f.js"
   ]
 }
