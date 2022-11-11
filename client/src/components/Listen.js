@@ -4,6 +4,7 @@ import px2vw from "../utils/px2vw";
 import Album from "./Album";
 import photo from "../photos/vitrine1.jpg"
 import Radio from "./Radio";
+import AlbumTwo from "./Album copy";
 
 const Listen = () => {
 
@@ -15,6 +16,9 @@ const Listen = () => {
         <Div>
         <Head> LIVE FROM KARACHI </Head>
           <Radio/>
+          <AlbumWrap>
+          <AlbumTwo/>
+          </AlbumWrap>
         <Head> MONTREAL ARCHIVE </Head>
 
           
@@ -30,6 +34,10 @@ const Listen = () => {
 
 
 }
+
+const AlbumWrap = styled.div`
+padding-top: 20px;
+`
 
 const Wrapper = styled.div`
 width: 100%;
@@ -54,7 +62,7 @@ align-items: center;
 /* width: ${px2vw(320, 768)};
 min-height: ${px2vw(200, 768)};  */
 width: 80%;
-max-height: 60%;
+/* max-height: 100%; */
 /* position: absolute; */
 /* position: relative;
 z-index: 0; */

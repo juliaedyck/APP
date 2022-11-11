@@ -18,7 +18,7 @@ const Karachi = () => {
       </ImgWrap>
 
       <TextDiv>
-<p> COMING SOON TO THE
+<p> 
 <StyledLink
                   onClick={() =>
                     newWindow(
@@ -27,8 +27,9 @@ const Karachi = () => {
                   }
                   target="_blank"
                 >
-                  KARACHI BIENNALE!
+                  KARACHI BIENNALE
                 </StyledLink>
+                OCTOBER 31 - NOVEMBER 14 2022
 </p>
 
 </TextDiv>
@@ -138,6 +139,7 @@ const Img2 = styled.img`
 
 const StyledLink = styled.a`
 margin-left: 3px;
+margin-right:3px;
 color: var(--color-green);
 &:hover {
     color: var(--color-blue);
