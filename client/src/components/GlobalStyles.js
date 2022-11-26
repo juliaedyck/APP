@@ -1,10 +1,12 @@
 import { createGlobalStyle } from "styled-components";
 import px2vw from "../utils/px2vw";
+import "../index.css"
+import "../fonts/bobbithehippie.ttf";
 
 export default createGlobalStyle`
 
 :root {
-	--font-heading: 'Amarante', cursive;
+	--font-heading: 'bobbi';
 	--font-body: 'Inter', sans-serif;
 
 

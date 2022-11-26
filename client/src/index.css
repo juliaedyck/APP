@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "bobbi";   /*Can be any text*/
+  src: local("Bobbithehippi"),
+    url("./fonts/bobbithehippie.ttf") format("truetype");
+}
