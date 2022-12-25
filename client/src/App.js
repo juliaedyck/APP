@@ -16,6 +16,8 @@ import HamburgerNav from "./components/HamburgerNav";
 import Karachi from "./components/Karachi";
 import Book from "./components/Book";
 import Listen from "./components/Listen";
+import Publication from "./components/Publication";
+import Press from "./components/Press";
 
 
 const App = () => {
@@ -39,6 +41,11 @@ const App = () => {
             <Route path="/Form3" element={<Form3 />} />
             <Route path="/Montreal" element={<Montreal />} />
             <Route path="/Karachi" element={<Karachi />} />
+            <Route path="/Publication" element={<Publication />} />
+            <Route path="/Press" element={<Press/>} />
+
+
+
 
           </Routes>
         </Wrapper>

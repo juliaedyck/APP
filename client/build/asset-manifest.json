@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.15827a11.css",
-    "main.js": "/static/js/main.6c4099b6.js",
+    "main.css": "/static/css/main.5ae7c0fa.css",
+    "main.js": "/static/js/main.d93db64c.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/APP_PDF_compressed.pdf": "/static/media/APP_PDF_compressed.48a7217f4b4ddaf13ccf.pdf",
     "static/media/app_karachi_final_page-0001.jpeg": "/static/media/app_karachi_final_page-0001.249bf775e306708e9bd7.jpeg",
     "static/media/app_ear.png": "/static/media/app_ear.c4ad1276355fcc68fe50.png",
     "static/media/app_lips.png": "/static/media/app_lips.023293ae6c419c50e9b3.png",
@@ -18,12 +19,12 @@
     "static/media/WORKING MENU_page-0001.jpg": "/static/media/WORKING MENU_page-0001.e8adbfd27be6016b5402.jpg",
     "static/media/bobbithehippie.ttf": "/static/media/bobbithehippie.13328dd41175b4a75267.ttf",
     "index.html": "/index.html",
-    "main.15827a11.css.map": "/static/css/main.15827a11.css.map",
-    "main.6c4099b6.js.map": "/static/js/main.6c4099b6.js.map",
+    "main.5ae7c0fa.css.map": "/static/css/main.5ae7c0fa.css.map",
+    "main.d93db64c.js.map": "/static/js/main.d93db64c.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15827a11.css",
-    "static/js/main.6c4099b6.js"
+    "static/css/main.5ae7c0fa.css",
+    "static/js/main.d93db64c.js"
   ]
 }
