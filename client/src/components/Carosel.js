@@ -10,7 +10,7 @@ const Carousel = () => {
 
     const [slides] = useState([
         {
-            source: "https://lh3.googleusercontent.com/nmmLSG2y0EW4vWJtR8gQ3eigCfkMEWXEc0i911zmpi_kGDYH5K0JECZCX8xkGsYP8ioT9Rcqzi4VmRR0-7_L6NPGHMGKdrZSWbM71UIVPONTH6MFIkg98OBx_7z8Dpw80wmMvirAO048RSOXEBiFHwhxSIw49x-mAuQT52ZYd5pkqNujoxSVbf0DprFmYnEkxhH3wDV0NYVmrmC3Yy9slWOD_keqZlqKZOuXfIVmDMUnWjzf2lAAEYT-sHJo1iAodwZBAcEW8kG0pJkMfYztTg9Cxq1VGzjpUE2FfubW_3lwPXWAbq6RDP3F71fzbPa7jlWisxulCngCvCya1GuLWrsmiJeQtqdj3bVLsd2q3NtJ5rX4x31ht6g0QwNf5lD0BM6ccbjGCmqyY0n6HYDlXh7uiE3ND6ZtpNJ_1O1cR9_f5IkSmoo5aXq9x6NOzze8XiS966eu0hO8IGCxdUtxMYWlg9f6I97DRg8vHO_fq18dSBcrZVh9bUQ4zUY7aVoeiWXH_GZUeY-bcYRXEe0byCX_A3ynYEwSjtXO1mhZ_h_ZolXTf2Ba0WE8qmrZ4VFJLcwUftH4U8p0KH0iMXMFxEf8-P406JLKmrAS8avTarWgFLEsntZ7zyP_oV65-QEnIZUKcNZ_SxT-pmwdnXWRdHYh2AwVLCQFcKl-qQlj3X1VKWisrRanX8Y9U05UWbZny9eXf-dNoLi45UDuEq-CCRfJy8DWQKGI_a6iJeUywsUgCNQbKPsvLVSf04t3LKXu7W0VUZLgMT-xgArpOrH6n4CBB7ezknyvPJFtR3aHtTM1REQT7dWhNsoOCb9n4RcqRRW4vxyHW_0mUY2_PcEJDYCA6ozXCUHS8LZNfxcq7iT35ZX7Un7onh1W9_z2stzmYneyYbCEOYWyz6mS02ARzEHYnwVJd6a3Vwm_gHMQKQG3o9zPXZB448_up64GxPdUKZq0I-Jau5kaW3lV5CDG=w610-h944-no?authuser=0",
+            source: "https://icecube-eu-303.icedrive.io/thumbnail?p=BeRGtW_QWogVhgXL1JQYChdU8PiGZGj.MDT56H63IOdTInOPCOIdzyMQNAr670OSGIkYh1o6Ltp2k8HmuEN7MSDlyLGz8uHpUKktTHrYuxA1khxMa1KkldA_XxRUmM39&w=1024&h=1024&m=cropped",
             title: "cover"
         },
         {
