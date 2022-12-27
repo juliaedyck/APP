@@ -184,7 +184,7 @@ const Img = styled.img`
 
   
   @media (max-width: 768px) {
-    max-width: 100%;
+    width: 80%;
     max-height: 80%;
 
   }
