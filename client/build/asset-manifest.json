@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15827a11.css",
-    "main.js": "/static/js/main.20f61de9.js",
+    "main.js": "/static/js/main.7b0d6214.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/APP_PDF_compressed.pdf": "/static/media/APP_PDF_compressed.48a7217f4b4ddaf13ccf.pdf",
     "static/media/app_karachi_final_page-0001.jpeg": "/static/media/app_karachi_final_page-0001.249bf775e306708e9bd7.jpeg",
@@ -27,11 +27,11 @@
     "static/media/bobbithehippie.ttf": "/static/media/bobbithehippie.13328dd41175b4a75267.ttf",
     "index.html": "/index.html",
     "main.15827a11.css.map": "/static/css/main.15827a11.css.map",
-    "main.20f61de9.js.map": "/static/js/main.20f61de9.js.map",
+    "main.7b0d6214.js.map": "/static/js/main.7b0d6214.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15827a11.css",
-    "static/js/main.20f61de9.js"
+    "static/js/main.7b0d6214.js"
   ]
 }

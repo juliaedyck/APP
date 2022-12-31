@@ -180,10 +180,6 @@ const Arrow = styled.div`
   }
 `
 const MobileImg = styled.div`
-width: 100%;
-display:flex;
-justify-content: center;
-align-items: center;
 
   @media (min-width: 768px) {
     display: none;
@@ -215,8 +211,8 @@ const Img = styled.img`
 
   
   @media (max-width: 768px) {
-    width: 80%;
-    max-height: 80%;
+    width: 100%;
+    /* max-height: 80%; */
 
   }
 `;
@@ -230,6 +226,8 @@ justify-content: center;
     max-width: 100%;
     max-height: 80%;
     flex-direction: column;
+justify-content: center;
+
 
   }
 `
