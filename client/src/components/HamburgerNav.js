@@ -61,6 +61,9 @@ const StyledNavLink = styled(NavLink)`
   color: #669966;
   margin-right: 10px;
   font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
   text-decoration: none;
   outline: none;
 

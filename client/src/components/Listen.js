@@ -14,8 +14,8 @@ const Listen = () => {
       {/* <Img /> */}
       <Wrapper>
         <Div>
-        <Head> LIVE FROM KARACHI </Head>
-          <Radio/>
+        {/* <Head> LIVE FROM KARACHI </Head>
+          <Radio/> */}
           <AlbumWrap>
           <AlbumTwo/>
           </AlbumWrap>

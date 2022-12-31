@@ -65,7 +65,7 @@ const Karachi = () => {
  </ImgWrap>
 </ImgDiv>
  <TextDiv>
-<p>For the Karahci edition, APP collaborated with local musician and multimedia artist Fahad Ubaid. Having a keen eye towards rhythm, he can play over six musical instruments and has been a music instructor at Indus Valley University, Karachi. They frequently compose music from different instruments, and specialise in digital art and video editing as well. </p>
+<p>For the Karachi edition, APP collaborated with local musician and multimedia artist Fahad Ubaid. Having a keen eye towards rhythm, he can play over six musical instruments and has been a music instructor at Indus Valley University, Karachi. They frequently compose music from different instruments, and specialise in digital art and video editing as well. </p>
 
 </TextDiv>
  <Img src={photo3} alt="Team" />

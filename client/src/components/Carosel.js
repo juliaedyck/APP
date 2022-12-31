@@ -3,7 +3,8 @@ import photo from "../photos/bio pic.jpg";
 import styled from 'styled-components';
 import {AiFillCaretRight} from 'react-icons/ai'
 import {AiFillCaretLeft} from 'react-icons/ai'
-
+import PDF from "../photos/APP_PDF_compressed.pdf"
+import photo6 from "../photos/intake 1.jpg"
 
 
 const Carousel = () => {
@@ -36,7 +37,7 @@ const Carousel = () => {
             title: "page 6"
         },
         {
-            source: "https://icecube-eu-303.icedrive.io/download?p=Wu6YWDE2TWRkkCXWHNt1AIaGkdcugnjSFmPH1XltQ6X1_GftRTRd5paShCzxQ5jp4CNYAcIIKY_sgb3SF7pXgT7_ZhEbnIg9AueeNfNCCeJE2fBadh7vdeqIBZJfYxPZwDOtr9TtQsdD15iBBEADHme88WlBo1857X7h_ZlV.Xrm9pfTzXqRRKmtc13tindin1H9lfojUwftm7yrULCtB4hC5Jf9y6RTyRPnSfFT7V7d2GdYQR_pXdbGzHfepa52",
+            source: "https://icecube-eu-303.icedrive.io/thumbnail?p=yukR8Vu.wwX1Uzj7w58D1w0ggrZ595_r8XqT9f.U_Z67kl_ssViixB2kUtk1iYANkiqjIYzCPExyHrZuahKPmSDlyLGz8uHpUKktTHrYuxA1khxMa1KkldA_XxRUmM39&w=1024&h=1024&m=cropped",
             title: "page 7"
         },
         {
@@ -52,7 +53,7 @@ const Carousel = () => {
             title: "page 10"
         },
         {
-            source: "https://icecube-eu-303.icedrive.io/download?p=Wu6YWDE2TWRkkCXWHNt1AIaGkdcugnjSFmPH1XltQ6WeT3g1tBfS96_tkFQx27xt4CNYAcIIKY_sgb3SF7pXgT7_ZhEbnIg9AueeNfNCCeJZSkr3bn0whK5DID5wr7KY4fuCzPEtVm9maJH50WeMwdcMsCdbaYjNSffOmkfralrm9pfTzXqRRKmtc13tindin1H9lfojUwftm7yrULCtBxhpmgMrZuj9LgcHSEq0c1Ld2GdYQR_pXdbGzHfepa52",
+            source: "https://icecube-eu-303.icedrive.io/thumbnail?p=SgYf1N8BJPWu3NBaDC04p7WoSevQZvYtNJTa9yR23GWcLTUFusHUl5PwjmWJOSdrHSC737fOl06X2qeJG6hMzyDlyLGz8uHpUKktTHrYuxA1khxMa1KkldA_XxRUmM39&w=1024&h=1024&m=cropped",
             title: "page 11"
         },
         {
@@ -95,11 +96,11 @@ const Carousel = () => {
             title: "page 21"
         },    
          {
-            source: "https://icecube-eu-303.icedrive.io/download?p=Wu6YWDE2TWRkkCXWHNt1AIaGkdcugnjSFmPH1XltQ6XupNOPOVYSP4hNzPpuMrw94CNYAcIIKY_sgb3SF7pXgT7_ZhEbnIg9AueeNfNCCeLn9kAfSF9WrJh7ajM0Yma_zz2dZQFtCmGeStRG.IVJTiA5ydxcVauIQLDn1vId9lTm9pfTzXqRRKmtc13tindin1H9lfojUwftm7yrULCtB6UCBWbwf5727uqP3dozJNjd2GdYQR_pXdbGzHfepa52",
+            source: "https://icecube-eu-303.icedrive.io/thumbnail?p=GGkWyb4hcLAsQfZviPqYsP9Lnelc7KoCoCiqgyKiIYdsjO5v2e0fMQXqth25pFuofh5YwLfJgCKYu.O8sMavmyDlyLGz8uHpUKktTHrYuxA1khxMa1KkldA_XxRUmM39&w=1024&h=1024&m=cropped",
             title: "page 22"
         },
         {
-            source: "https://icecube-eu-303.icedrive.io/download?p=Wu6YWDE2TWRkkCXWHNt1AIaGkdcugnjSFmPH1XltQ6VsS9N_s7_V_N1vUG2E4hHX4CNYAcIIKY_sgb3SF7pXgT7_ZhEbnIg9AueeNfNCCeIn9m.QV8GB58NcgXR2.N7pFVCtRZb7s5uZcPNmvHI5TFBF22UuPsSrYvxSU0PYih7m9pfTzXqRRKmtc13tindin1H9lfojUwftm7yrULCtB2mKZrVrXCRAdVVq358oq1Pd2GdYQR_pXdbGzHfepa52",
+            source: "https://icecube-eu-303.icedrive.io/thumbnail?p=oCNBim_8q47uTEC_AZue8XdW1jgC3UxfmxhPBEsP2HJZ9qBJehHxaKHmnUILTBlH_NEJZ6q3p6SqxJ9Wkyu6lCDlyLGz8uHpUKktTHrYuxA1khxMa1KkldA_XxRUmM39&w=1024&h=1024&m=cropped",
             title: "page 23"
         },
         {
@@ -107,7 +108,7 @@ const Carousel = () => {
             title: "page 24"
         },
         {
-            source: "https://icecube-eu-303.icedrive.io/download?p=Wu6YWDE2TWRkkCXWHNt1AIaGkdcugnjSFmPH1XltQ6X7E_FFyF6Pw34XsfWEBjo04CNYAcIIKY_sgb3SF7pXgT7_ZhEbnIg9AueeNfNCCeIEClvZTskWs4OF_zSNmnw2D2uffSrPwhO1f.4wA.8hBLnB1Fwuzh0S7hdCb.YNBznm9pfTzXqRRKmtc13tindin1H9lfojUwftm7yrULCtByayydQARy3xdHU7Eof_ZpTd2GdYQR_pXdbGzHfepa52",
+            source: "https://icecube-eu-303.icedrive.io/thumbnail?p=Y6TZAWj9gAha1_mUGOHY2Twk3M3poLclwq1cCqLKe.SUC2TVMm1qQU6NB8c5mBnr9JI.sc1eNwXeDEKOqzDxkyDlyLGz8uHpUKktTHrYuxA1khxMa1KkldA_XxRUmM39&w=1024&h=1024&m=cropped",
             title: "page 25"
         },
         
@@ -139,6 +140,12 @@ const Carousel = () => {
         currentSlide = slides[currentPosition];
     }
 
+    // const newWindow = () => {
+    //     window.open({photo6}, "newwindow",
+    //     ); return false;
+    //   };
+    
+
     return (
         <>
         <Wrapper>
@@ -148,12 +155,17 @@ const Carousel = () => {
                 
                         
                         <Slider>
-                            <div id="arrow-left" onClick={arrowLeftClick}><i className="fas fa-arrow-alt-circle-left"> <AiFillCaretLeft/> </i></div>
-                        <Img src={currentSlide.source} alt={currentSlide.title} title={currentSlide.title} className="slider-img" onClick={arrowRightClick} />
-                            <div id="arrow-right" onClick={arrowRightClick}><i className="fas fa-arrow-alt-circle-right"><AiFillCaretRight/></i></div>
+                            <Arrow onClick={arrowLeftClick}><i className="fas fa-arrow-alt-circle-left"> <AiFillCaretLeft/> </i></Arrow>
+                        <Desktop><Img src={currentSlide.source} alt={currentSlide.title} title={currentSlide.title} className="slider-img" onClick={arrowRightClick} /> </Desktop>
+                        <MobileImg> <a href = {PDF}> <Img src={currentSlide.source} alt={currentSlide.title} title={currentSlide.title}/> </a></MobileImg> 
+                       
+                            <Arrow onClick={arrowRightClick}><i className="fas fa-arrow-alt-circle-right"><AiFillCaretRight/></i></Arrow>
                             </Slider>
                     
-                
+                           
+
+{/* <a href="#" onClick={newWindow}>MyPDF</a> */}
+{/* <a href="#" onClick="window.open('../photos/APP_PDF_compressed.pdf', '_blank'); return false;">MyPDF</a>                 */}
 
                 </div>
             </div>
@@ -162,7 +174,26 @@ const Carousel = () => {
         </>
     )
 }
+const Arrow = styled.div`
+  @media (max-width: 768px) {
+    display: none;
+  }
+`
+const MobileImg = styled.div`
+width: 100%;
+display:flex;
+justify-content: center;
+align-items: center;
 
+  @media (min-width: 768px) {
+    display: none;
+  }
+`
+const Desktop = styled.div`
+  @media (max-width: 768px) {
+    display: none;
+  }
+`
 const Wrapper = styled.div`
   width: 100%;
   padding-top: 20px;
@@ -194,6 +225,7 @@ const Slider = styled.div`
 display: flex;
 flex-direction: row;
 align-items: center;
+justify-content: center;
 @media (max-width: 768px) {
     max-width: 100%;
     max-height: 80%;
