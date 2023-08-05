@@ -5,13 +5,14 @@ import {AiFillCaretRight} from 'react-icons/ai'
 import {AiFillCaretLeft} from 'react-icons/ai'
 import PDF from "../photos/APP_PDF_compressed.pdf"
 import photo6 from "../photos/intake 1.jpg"
+import cover from "../photos/APP_PDF_compressed_page-0001.jpg"
 
 
 const Carousel = () => {
 
     const [slides] = useState([
         {
-            source: "https://icecube-eu-303.icedrive.io/thumbnail?p=BeRGtW_QWogVhgXL1JQYChdU8PiGZGj.MDT56H63IOdTInOPCOIdzyMQNAr670OSGIkYh1o6Ltp2k8HmuEN7MSDlyLGz8uHpUKktTHrYuxA1khxMa1KkldA_XxRUmM39&w=1024&h=1024&m=cropped",
+            source: {cover},
             title: "cover"
         },
         {
@@ -155,11 +156,11 @@ const Carousel = () => {
                 
                         
                         <Slider>
-                            <Arrow onClick={arrowLeftClick}><i className="fas fa-arrow-alt-circle-left"> <AiFillCaretLeft/> </i></Arrow>
-                        <Desktop><Img src={currentSlide.source} alt={currentSlide.title} title={currentSlide.title} className="slider-img" onClick={arrowRightClick} /> </Desktop>
-                        <MobileImg> <a href = {PDF}> <Img src={currentSlide.source} alt={currentSlide.title} title={currentSlide.title}/> </a></MobileImg> 
+                            {/* <Arrow onClick={arrowLeftClick}><i className="fas fa-arrow-alt-circle-left"> <AiFillCaretLeft/> </i></Arrow> */}
+                        <Desktop><a href = {PDF} target= "blank"> <Img src={cover} alt={currentSlide.title} title={currentSlide.title} className="slider-img" onClick={arrowRightClick} /> </a></Desktop>
+                        <MobileImg> <a href = {PDF}> <Img src={cover} alt={currentSlide.title} title={currentSlide.title}/> </a></MobileImg> 
                        
-                            <Arrow onClick={arrowRightClick}><i className="fas fa-arrow-alt-circle-right"><AiFillCaretRight/></i></Arrow>
+                            {/* <Arrow onClick={arrowRightClick}><i className="fas fa-arrow-alt-circle-right"><AiFillCaretRight/></i></Arrow> */}
                             </Slider>
                     
                            

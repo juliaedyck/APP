@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15827a11.css",
-    "main.js": "/static/js/main.2b7dff5d.js",
+    "main.js": "/static/js/main.4906a389.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/APP_PDF_compressed.pdf": "/static/media/APP_PDF_compressed.48a7217f4b4ddaf13ccf.pdf",
     "static/media/app_karachi_final_page-0001.jpeg": "/static/media/app_karachi_final_page-0001.249bf775e306708e9bd7.jpeg",
@@ -15,6 +15,7 @@
     "static/media/app_keyboard.png": "/static/media/app_keyboard.d8407b33720298460dc2.png",
     "static/media/vitrine2.jpg": "/static/media/vitrine2.6d492cef474d266421fb.jpg",
     "static/media/Placebo_photo_par_Alexis_Bellavance_004.jpg": "/static/media/Placebo_photo_par_Alexis_Bellavance_004.ec9808cbe3979cc4c231.jpg",
+    "static/media/APP_PDF_compressed_page-0001.jpg": "/static/media/APP_PDF_compressed_page-0001.5ee9340dc049d447145f.jpg",
     "static/media/vitrine1.jpg": "/static/media/vitrine1.ea30f775bc93fe9b0a08.jpg",
     "static/media/working 2.jpg": "/static/media/working 2.61ba3133d84a9f9f5c37.jpg",
     "static/media/Placebo_photo_par_Alexis_Bellavance_007.jpg": "/static/media/Placebo_photo_par_Alexis_Bellavance_007.b77c1199f245522aab69.jpg",
@@ -27,11 +28,11 @@
     "static/media/bobbithehippie.ttf": "/static/media/bobbithehippie.13328dd41175b4a75267.ttf",
     "index.html": "/index.html",
     "main.15827a11.css.map": "/static/css/main.15827a11.css.map",
-    "main.2b7dff5d.js.map": "/static/js/main.2b7dff5d.js.map",
+    "main.4906a389.js.map": "/static/js/main.4906a389.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15827a11.css",
-    "static/js/main.2b7dff5d.js"
+    "static/js/main.4906a389.js"
   ]
 }
