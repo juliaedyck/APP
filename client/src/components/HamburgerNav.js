@@ -1,30 +1,42 @@
 import { MenuLink, Menu, Hamburger } from "./NavElement";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { useState } from 'react';
+import { useState } from "react";
 
-import { FaTimes } from 'react-icons/fa';
+import { FaTimes } from "react-icons/fa";
 
-const HamburgerNav = ({handleNavToggle}) => {
-
-
+const HamburgerNav = ({ handleNavToggle }) => {
   return (
-
     <Nav>
       {/* <Menu> */}
-        {/* <StyledNavLink onClick={handleNavToggle} to="/Form">GET AN AUDIO PLACEBO</StyledNavLink> */}
-        <StyledNavLink onClick={handleNavToggle} to="/About">ABOUT</StyledNavLink>
-        <StyledNavLink onClick={handleNavToggle} to="/Listen">LISTEN</StyledNavLink>
+      {/* <StyledNavLink onClick={handleNavToggle} to="/Form">GET AN AUDIO PLACEBO</StyledNavLink> */}
+      <StyledNavLink onClick={handleNavToggle} to="/About">
+        ABOUT
+      </StyledNavLink>
+      <StyledNavLink onClick={handleNavToggle} to="/Listen">
+        LISTEN
+      </StyledNavLink>
 
-        <StyledNavLink onClick={handleNavToggle} to="/Book">CONTACT</StyledNavLink>
-        
-        <StyledNavLink onClick={handleNavToggle} to="/Montreal">MONTREAL EDITION</StyledNavLink>
-        <StyledNavLink onClick={handleNavToggle} to="/Karachi">KARACHI EDITION</StyledNavLink>
-        <StyledNavLink onClick={handleNavToggle} to="/Publication">PUBLICATION</StyledNavLink>
-        <StyledNavLink onClick={handleNavToggle} to="/Press">PRESS</StyledNavLink>
+      <StyledNavLink onClick={handleNavToggle} to="/Book">
+        CONTACT
+      </StyledNavLink>
 
+      <StyledNavLink onClick={handleNavToggle} to="/Montreal">
+        MONTREAL EDITION
+      </StyledNavLink>
+      <StyledNavLink onClick={handleNavToggle} to="/Karachi">
+        KARACHI EDITION
+      </StyledNavLink>
+      <StyledNavLink onClick={handleNavToggle} to="/Publication">
+        PUBLICATION
+      </StyledNavLink>
+      <StyledNavLink onClick={handleNavToggle} to="/Press">
+        PRESS
+      </StyledNavLink>
 
-        <CloseToggle onClick= {handleNavToggle} ><FaTimes/></CloseToggle> 
+      <CloseToggle onClick={handleNavToggle}>
+        <FaTimes />
+      </CloseToggle>
 
       {/* </Menu> */}
     </Nav>
@@ -32,7 +44,6 @@ const HamburgerNav = ({handleNavToggle}) => {
 };
 
 const Nav = styled.div`
-
   top: 0;
   right: 0;
   margin-top: 0px;
@@ -49,13 +60,12 @@ const Nav = styled.div`
 
   @media screen and (min-width: 790px) {
     width: 20%;
-  /* background-color: rgb(97, 76, 77); */
-  background-color: #f7c2ce;
-  position: absolute;
-  z-index: 999999;
-
+    /* background-color: rgb(97, 76, 77); */
+    background-color: #f7c2ce;
+    position: absolute;
+    z-index: 999999;
   }
-  `;
+`;
 
 const StyledNavLink = styled(NavLink)`
   color: #669966;
@@ -77,18 +87,17 @@ const StyledNavLink = styled(NavLink)`
 `;
 
 const CloseToggle = styled.button`
-    position: fixed;
-    top: 3%;
-    right: 4%;
-    /* background: #222; */
+  position: fixed;
+  top: 3%;
+  right: 4%;
   background: #f7c2ce;
   border: none;
 
-    color: #fff;
-    padding: .75rem;
-    display: flex;
-    place-items: center;
-    font-size: 2rem;
-    cursor: pointer;
+  color: #fff;
+  padding: 0.75rem;
+  display: flex;
+  place-items: center;
+  font-size: 2rem;
+  cursor: pointer;
 `;
 export default HamburgerNav;

@@ -3,7 +3,6 @@ import styled, { keyframes } from "styled-components";
 import { useState } from 'react';
 import { Hamburger } from "./NavElement";
 import { NavLink } from "react-router-dom";
-import NavBar from "./NavBar";
 import HamburgerNav from "./HamburgerNav";
 
 const Header = () => {
