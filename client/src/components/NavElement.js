@@ -35,6 +35,7 @@ z-index: 90;
     font-size: 1.9rem;
     top: 0;
     right: 0;
+    margin-top: 5%;
     position: absolute;
     cursor: pointer;
     transform: translate(-100%, 75%);

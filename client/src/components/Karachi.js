@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import px2vw from "../utils/px2vw";
 
-import photo from "../photos/signs.JPG";
+import photo from "../photos/signs.jpg";
 import photo2 from "../photos/app_karachi_final_page-0001.jpeg"
-import photo3 from "../photos/team.JPG"
-import photo4 from "../photos/menu.JPG"
+import photo3 from "../photos/team.jpg"
+import photo4 from "../photos/menu.jpg"
 import photo5 from "../photos/plaza.jpg"
 import photo6 from "../photos/intake 1.jpg"
-import photo7 from "../photos/intake 2.JPG"
+import photo7 from "../photos/intake 2.jpg"
 import photo8 from "../photos/working.jpg"
 import photo9 from "../photos/working 2.jpg"
 

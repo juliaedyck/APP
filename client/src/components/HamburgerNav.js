@@ -53,8 +53,9 @@ const Nav = styled.div`
   /* z-index: 100; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+ 
   position: absolute;
   z-index: 999999;
 
@@ -64,6 +65,7 @@ const Nav = styled.div`
     background-color: #f7c2ce;
     position: absolute;
     z-index: 999999;
+    margin-top: 105px;
   }
 `;
 
@@ -88,7 +90,7 @@ const StyledNavLink = styled(NavLink)`
 
 const CloseToggle = styled.button`
   position: fixed;
-  top: 3%;
+  top: 1%;
   right: 4%;
   background: #f7c2ce;
   border: none;

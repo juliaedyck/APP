@@ -5,16 +5,7 @@ const HomePage = () => {
   return (
     <Wrapper>
       <Img />
-      {/* <Div>
-        <InfiniteScroll>
-          CAN PLACEBOS HELP? DOES SOUND HAVE THE POWER TO PROCESS COMPLEX
-          EMOTIONS? CAN MUSIC GIVE YOU WHAT YOU NEED? IS THIS EVEN MUSIC?
-        </InfiniteScroll>
-        <InfiniteScroll2>
-          CAN PLACEBOS HELP? DOES SOUND HAVE THE POWER TO PROCESS COMPLEX
-          EMOTIONS? CAN MUSIC GIVE YOU WHAT YOU NEED? IS THIS EVEN MUSIC?
-        </InfiniteScroll2>
-      </Div> */}
+  
     </Wrapper>
   );
 };

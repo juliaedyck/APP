@@ -62,6 +62,7 @@ font-size: 20px;
 
 
   @media screen and (max-width: 768px) {
+
     display: none;
 
   }
@@ -90,14 +91,11 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #f7c2ce;
-  /* padding-right: 80px; */
+ 
 
   @media (max-width: 768px) {
   width: 100%;
-padding-left: 18%;
-padding-right: 18%;
-  /* padding: 0;
-  margin-left: 40px; */
+
 
   }
 `;
@@ -119,6 +117,8 @@ const StyledNavLink = styled(NavLink)`
   width: 100%;
   font-size: 25px;
   margin: 0;
+  display: flex;
+    justify-content: center
   }
   
 `;
@@ -134,12 +134,13 @@ const ScrollDiv = styled.div`
   /* padding-top: 10px; */
 
   @media (max-width: 768px) {
-  width: 230%;
+  /* width: 230%;
   font-size: 15px; 
   height: 40px;
   display: flex;
   flex-direction: row;
-  padding-top: 20px;
+  padding-top: 20px; */
+  display: none;
   }
 `;
 
@@ -154,6 +155,9 @@ const ScrollWrapper = styled.div`
   color: var(--color-blue);
   font-size: 20px;
 
+@media (max-with: 768px) {
+  display: none;
+}
 `;
 
 const scroll = keyframes`
